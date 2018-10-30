@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E7B0E94F218756B200372E78 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0E94E218756B200372E78 /* main.swift */; };
+		E7B0E97E2188483B00372E78 /* NextMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0E97D2188483B00372E78 /* NextMatrix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		E7B0E94B218756B200372E78 /* Terminal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Terminal; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B0E94E218756B200372E78 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E7B0E97D2188483B00372E78 /* NextMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextMatrix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				E7B0E94E218756B200372E78 /* main.swift */,
+				E7B0E97D2188483B00372E78 /* NextMatrix.swift */,
 			);
 			path = Terminal;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7B0E94F218756B200372E78 /* main.swift in Sources */,
+				E7B0E97E2188483B00372E78 /* NextMatrix.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
