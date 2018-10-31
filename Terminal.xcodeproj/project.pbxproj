@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18CD04D52189896400E26993 /* sortByHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD04D42189896400E26993 /* sortByHeight.swift */; };
 		E7B0E94F218756B200372E78 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0E94E218756B200372E78 /* main.swift */; };
 		E7B0E97E2188483B00372E78 /* NextMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B0E97D2188483B00372E78 /* NextMatrix.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		18CD04D42189896400E26993 /* sortByHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortByHeight.swift; sourceTree = "<group>"; };
 		E7B0E94B218756B200372E78 /* Terminal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Terminal; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B0E94E218756B200372E78 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E7B0E97D2188483B00372E78 /* NextMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextMatrix.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			children = (
 				E7B0E94E218756B200372E78 /* main.swift */,
 				E7B0E97D2188483B00372E78 /* NextMatrix.swift */,
+				18CD04D42189896400E26993 /* sortByHeight.swift */,
 			);
 			path = Terminal;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			files = (
 				E7B0E94F218756B200372E78 /* main.swift in Sources */,
 				E7B0E97E2188483B00372E78 /* NextMatrix.swift in Sources */,
+				18CD04D52189896400E26993 /* sortByHeight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
