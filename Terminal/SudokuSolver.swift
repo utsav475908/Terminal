@@ -1,4 +1,4 @@
-mport Foundation
+import Foundation
 
 let UNASSIGNED = 0
 let  N = 9
@@ -333,12 +333,12 @@ func usedInBox(grid: inout Array2D<Int>, boxStartRow:Int, boxStartCol: Int, num:
 }
 
 // checks good to assign num to the given row, col
-func isSafe(grid: Array2D<Int>, row: inout Int, col : inout Int, num: inout Int) -> Bool {
+func isSafe(grid: inout Array2D<Int>, row: inout Int, col : inout Int, num: inout Int) -> Bool {
     var grid = grid
     return !usedInRow(grid: &grid, row: row, num: num) && !usedInCol(grid: &grid, col: col, num: num) && !usedInBox(grid: &grid, boxStartRow: row - row % 3, boxStartCol: col - col % 3, num: num) && grid[row, col] == UNASSIGNED
 }
 
-func printGrid(grid: Array2D<Int>) {
+func printGrid(grid: inout Array2D<Int>) {
     for row in 0 ..< grid.rows {
         for col in 0 ..< grid.columns {
             print("the row is \(grid.rows) and the col is \(grid.columns) of \(grid[row,col]) ")
@@ -347,7 +347,7 @@ func printGrid(grid: Array2D<Int>) {
     }
 }
 
-func solveSudoku( grid: Array2D<Int>) -> Bool {
+func solveSudoku( grid: inout Array2D<Int>) -> Bool {
     var row = 0, col = 0
     var gride = grid
     // If there is no unassigned location , we are done
@@ -357,11 +357,11 @@ func solveSudoku( grid: Array2D<Int>) -> Bool {
     // consider digit 1 to 9
     for var num in 1...9 {
         // if looks promising
-        if isSafe(grid: gride, row: &row, col: &col, num: &num) {
+        if isSafe(grid: &gride, row: &row, col: &col, num: &num) {
             gride[row, col] = num;
             
             // return  if success, yay!
-            if solveSudoku(grid: gride){
+            if solveSudoku(grid: &gride){
                 return true
             }
             gride[row, col] = UNASSIGNED
@@ -400,8 +400,9 @@ let boss:[[Character]] =    [[".",".",".",".","8",".",".",".","."],
                              [".","1","2",".","3",".",".",".","."],
                              [".",".",".",".",".","7",".",".","1"]]
 
-let swaha =  returnSomething(grid: boss)
+var swaha =  returnSomething(grid: boss)
 
 //let haha = solveSudoku(grid: Array2D<Int>(columns: 9, rows: 9, initialValue: 2))
-let haha = solveSudoku(grid: swaha)
-print(haha)
+let haha = solveSudoku(grid: &swaha)
+//print(haha)
+

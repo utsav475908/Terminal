@@ -277,7 +277,7 @@ func sudoku2(grid: [[Character]]) -> Bool {
 
 
 let ha = checkForDuplicateInTheCollection(collection: [0,0])
-ha
+//ha
 
 sudoku2(grid:  [[".",".",".","2",".",".","6",".","."],
                 [".",".",".","1",".",".",".",".","."],
