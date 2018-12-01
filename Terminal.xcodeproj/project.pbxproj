@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		184A701B21B027110016E24C /* SudokuValidChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A701A21B027110016E24C /* SudokuValidChecker.swift */; };
+		18B0F06021B30D6000F38C41 /* SudokuSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0F05F21B30D6000F38C41 /* SudokuSolver.swift */; };
 		18B1ACB1218B4CAC000EE963 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1ACB0218B4CAC000EE963 /* File.swift */; };
 		18CD04D52189896400E26993 /* sortByHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD04D42189896400E26993 /* sortByHeight.swift */; };
 		18F70E96219ECF2500A13AA7 /* rotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F70E95219ECF2500A13AA7 /* rotateImage.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		184A701A21B027110016E24C /* SudokuValidChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuValidChecker.swift; sourceTree = "<group>"; };
+		18B0F05F21B30D6000F38C41 /* SudokuSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuSolver.swift; sourceTree = "<group>"; };
 		18B1ACB0218B4CAC000EE963 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		18CD04D42189896400E26993 /* sortByHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortByHeight.swift; sourceTree = "<group>"; };
 		18F70E95219ECF2500A13AA7 /* rotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotateImage.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				18B1ACB0218B4CAC000EE963 /* File.swift */,
 				18F70E95219ECF2500A13AA7 /* rotateImage.swift */,
 				184A701A21B027110016E24C /* SudokuValidChecker.swift */,
+				18B0F05F21B30D6000F38C41 /* SudokuSolver.swift */,
 			);
 			path = Terminal;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 				18F70E96219ECF2500A13AA7 /* rotateImage.swift in Sources */,
 				18B1ACB1218B4CAC000EE963 /* File.swift in Sources */,
 				E7B0E97E2188483B00372E78 /* NextMatrix.swift in Sources */,
+				18B0F06021B30D6000F38C41 /* SudokuSolver.swift in Sources */,
 				18CD04D52189896400E26993 /* sortByHeight.swift in Sources */,
 				184A701B21B027110016E24C /* SudokuValidChecker.swift in Sources */,
 			);
